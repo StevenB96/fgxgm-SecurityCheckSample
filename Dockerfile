@@ -1,4 +1,4 @@
-FROM node:18.17.1
+FROM node:18.20.4
 
 RUN sudo apt-get update
 RUN sudo apt-get install curl=7.88.1-10+deb12u4 libcurl4-openssl-dev=7.88.1-10+deb12u4 libcurl3-gnutls=7.88.1-10+deb12u4 libcurl4=7.88.1-10+deb12u4
